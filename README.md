@@ -1,2 +1,1 @@
-# oc-quickly-blogging-theme
-Quickly blogging theme for OctoberCMS
+# Quickly blog theme for OctoberCMS

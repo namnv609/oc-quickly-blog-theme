@@ -1,0 +1,51 @@
+name: Quicly Blog Theme
+author: NamNV609
+homepage: http://namnv609.cf
+description: Quickly blog theme for OctoberCMS
+code: Quickly-Blog-Theme
+
+form:
+    tabs:
+        fields:
+            # General tab
+            site_name:
+                label: Site name
+                comment: The website name as it should appear on the front-end
+                default: LaradevVN
+                tab: General
+            background_image:
+                label: Background image
+                comment: Background image as it should appear on the front-end
+                default: /themes/oc-quickly-blog-theme/assets/images/pattern.jpg
+                tab: General
+            default_featured_image:
+                label: Default featured image
+                comment: Default image for post without featured image
+                default: ''
+                tab: General
+
+            # Social buttons
+            facebook:
+                label: Facebook
+                comment: Facebook URL
+                default: ''
+                tab: Social buttons
+            twitter:
+                label: Twiiter
+                comment: Twitter URL
+                default: ''
+                tab: Social buttons
+            google_plus:
+                label: Google+
+                comment: Google+ profile URL
+                default: ''
+                tab: Social buttons
+
+            # Meta tags tab
+            meta_author:
+                label: Author
+                comment: Content of meta author <meta name="author" />
+                default: LaradevVN
+                tab: Meta tags
+require:
+    - RainLab.Blog
